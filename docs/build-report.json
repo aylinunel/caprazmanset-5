@@ -1,0 +1,64 @@
+{
+ "params": {
+  "bloc_left_below": 45,
+  "bloc_right_above": 55,
+  "active_day_share": 0.5,
+  "cluster_threshold": 0.33,
+  "cluster_window_hours": 48,
+  "cluster_merge_link_share": 0.4,
+  "cluster_max_size": 120,
+  "event_min_outlets": 5,
+  "duplicate_cosine": 0.9,
+  "bs_max_side_outlets": 10,
+  "bs_min_other_share": 0.33,
+  "bs_binom_p": 0.1,
+  "leadlag_horizon_hours": 48,
+  "similarity_min_events": 30,
+  "cv_folds": 5,
+  "random_state": 20261028
+ },
+ "window": [
+  "2026-09-01",
+  "2026-10-25"
+ ],
+ "score": {
+  "scored_days": 0,
+  "rules": "7ecc9ccfcba7ab16",
+  "refHeadlines": 22213,
+  "evidenceChanged": 833
+ },
+ "classify": {
+  "key": "af3e7d903bcc074c4db809ed",
+  "trainedOn": 22213,
+  "section": {
+   "accuracy": 0.9909,
+   "macroF1": 0.7873,
+   "n": 22213
+  },
+  "political": {
+   "accuracy": 0.9943,
+   "macroF1": 0.989,
+   "n": 22213
+  }
+ },
+ "cluster": {
+  "pair_precision": 0.853,
+  "pair_recall": 0.861,
+  "pair_f1": 0.857,
+  "pred_pairs": 59139,
+  "gold_pairs": 58597
+ },
+ "eventTopics": {
+  "microF1": 0.7552,
+  "exactTopic": 0.7169,
+  "n": 1851
+ },
+ "sizes": {
+  "a-2026-09.bin": 6004557,
+  "l-2026-09.bin": 8194028,
+  "a-2026-10.bin": 3825074,
+  "l-2026-10.bin": 4773267,
+  "core.bin": 600892
+ },
+ "seconds": 423.3
+}
